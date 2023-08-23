@@ -1,6 +1,6 @@
 # Deploy website using S3 bucket, ACM certificate, CloudFront distribution and Route 53 with AWS CDK
 
-**This repository contains AWS CDK TypeScript code that deploys an S3 bucket(with website endpoint), an ACM certificate, a CloudFront distribution and Route 53 records. It's a work of [StormIT](https://www.stormit.cloud) and we cannot take responsibility for the consequences of using the provided code as it is ultimately the responsibility of the user to understand and use the code appropriately in their specific use case.**
+This repository contains AWS CDK TypeScript code that deploys an S3 bucket(with website endpoint), an ACM certificate, a CloudFront distribution and Route 53 records. It's a work of [StormIT](https://www.stormit.cloud) and we cannot take responsibility for the consequences of using the provided code as it is ultimately the responsibility of the user to understand and use the code appropriately in their specific use case.
 
 **Please be aware that all content stored in the S3 bucket is publicly available. To maintain data security, ensure that only static website content is stored here, avoiding any unintentional exposure of sensitive information.**
 
