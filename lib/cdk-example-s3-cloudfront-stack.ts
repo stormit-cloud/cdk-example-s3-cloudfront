@@ -47,6 +47,7 @@ export class InfraStack extends Stack {
     
 
   // 3. Create an S3 bucket to store content, and set the removal policy to either 'Retain' or 'Destroy'
+    // Please be aware that all content stored in the S3 bucket is publicly available.
         const siteBucket = new s3.Bucket(this, 'SiteBucket', {
           bucketName: siteDomain,
           publicReadAccess: true,
